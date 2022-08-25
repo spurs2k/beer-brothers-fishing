@@ -1,8 +1,6 @@
 #siteHeaderLogo {
     width: 20%;
-    height: auto;
 }
-
 .siteHeaderNavLink {
     background-color: none;
     border: none;
@@ -13,8 +11,4 @@
     font-weight: bold;
     font-size: 30px;
     margin: 4px 2px;
-}
-
-.siteHeaderNavItem {
-    align-items: center;
 }
