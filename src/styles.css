@@ -1,0 +1,12 @@
+:root {
+    --green: #848B63;
+}
+
+h1 {
+    color: var(--green);
+    text-align: center;
+}
+
+.greenColor {
+    color: var(--green);
+}

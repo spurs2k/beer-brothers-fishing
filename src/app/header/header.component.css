@@ -1,6 +1,6 @@
 
 .logo {
-    width: 30%;
+    width: 200px;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -23,7 +23,7 @@
 }
 
 .navbar a {
-    color: green;
+    color: var(--green);;
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@
 .menu-line {
     width: 20px;
     height: 3px;
-    background-color: green;
+    background-color: var(--green);;
     margin-bottom: 4px;
 }
 
@@ -69,7 +69,7 @@
 
     .nav-list .list-item {
         display: block;
-        border-top: 1px solid green;
+        border-top: 1px solid var(--green);
     }
 
     .primary-icon {
