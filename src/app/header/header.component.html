@@ -1,20 +1,19 @@
-<body>
+<header>
 
-    <header>
+    <nav class="navbar">
 
-        
-        <nav class="navbar">
-            <div>
-                <a routerLink="home">
-                    <img class="logo" src="assets/images/logo.png" alt="Beer Brothers Fishing Logo">
-                </a>
-            </div>
-            <ul class="nav-list" id="navi-list">
-                <li class="list-item">
-                    <a routerLink="rigs">RIGS</a>
-                </li>
-                <li class="list-item">
-                    <a routerLink="lines">LINES</a>
+        <div>
+            <a routerLink="">
+                <img class="logo" src="assets/images/logo.png" alt="Beer Brothers Fishing Logo">
+            </a>
+        </div>
+
+        <ul class="nav-list" [ngClass]="{'active': hamburgerIsActive}">
+            <li class="list-item">
+                <a routerLink="rigs">RIGS</a>
+            </li>
+            <li class="list-item">
+                <a routerLink="lines">LINES</a>
             </li>
             <li class="list-item">
                 <a routerLink="knots">KNOTS</a>
@@ -23,22 +22,13 @@
                 <a routerLink="equipment">EQUIPMENT</a>
             </li>
         </ul>
-        <div class="menu" id="toggle-button">
+
+        <div class="menu" (click)="menuClicked()" style="cursor:pointer">
             <div class="menu-line"></div>
             <div class="menu-line"></div>
             <div class="menu-line"></div>
         </div>
+
     </nav>
-    
+
 </header>
-
-<script>
-    const toggleButton = document.getElementById('toggle-button')
-    const naviList = document.getElementById('navi-list');
-
-    toggleButton.addEventListener('click', () => {
-        naviList.classList.toggle('active');
-    })
-</script>
-    
-</body>

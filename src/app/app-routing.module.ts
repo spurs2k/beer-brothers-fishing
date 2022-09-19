@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'lines', component: LinesComponent },
   { path: 'knots', component: KnotsComponent },
   { path: 'equipment', component: EquipmentComponent },
-  { path: 'home', component: HomeComponent }
+  { path: '', component: HomeComponent }
 
 ];
 

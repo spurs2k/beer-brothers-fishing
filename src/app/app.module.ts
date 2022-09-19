@@ -9,6 +9,8 @@ import { LinesComponent } from './lines/lines.component';
 import { KnotsComponent } from './knots/knots.component';
 import { EquipmentComponent } from './equipment/equipment.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -19,12 +21,14 @@ import { HomeComponent } from './home/home.component';
     LinesComponent,
     KnotsComponent,
     EquipmentComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     FlexLayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

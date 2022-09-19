@@ -8,14 +8,17 @@ import * as _ from 'underscore';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { 
+  hamburgerIsActive: boolean = false;
 
-    
+  constructor() {
+
+
   }
 
-  
+  ngOnInit(): void { }
 
-  ngOnInit(): void {
+  menuClicked(): void {
+    this.hamburgerIsActive = !this.hamburgerIsActive;
   }
-
 }
+

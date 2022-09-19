@@ -1,0 +1,71 @@
+/* Global styling for sticky footer. Removes scroll bar and ensures that the content will always push the footer to the bottom*/
+html,
+body,
+app-root {
+    height: 100%;
+    --green: #555E30;
+}
+
+.greenColor {
+    color: var(--green);
+}
+
+/* Content wrapper stylings. The outer container is used to make sure the application fills the entire browser and pushes footer to the bottom of the page. The inner container is there in case content goes beyond the view port, the content will not overflow into the footer. */
+
+.content-outer-container {
+    margin-bottom: 0;
+    margin-top: 0;
+    min-height: 100%;
+    background-color: black;
+    /* change this color after editing website. changed to black for less eye strain */
+}
+
+.content-inner-container {
+    padding-bottom: 75px;
+}
+
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    border: 1px solid var(--green);
+    background-color: pink;
+}
+
+/* global styling for the paragraph headings on each page*/
+h1 {
+    color: var(--green);
+    text-align: center;
+}
+
+.footer-links {
+    color: var(--green);
+}
+
+.footer-links:hover {
+    color: var(--green);
+}
+
+.fa-icons {
+    size: 6x;
+}
+
+.fa-pulse-hover {
+    color: var(--green);
+    margin: 10 2em;
+    display: inline-block;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.fa-pulse-hover:hover {
+    animation: pulse 1s ease-in-out infinite;
+    color: var(--green);
+}
