@@ -1,18 +1,28 @@
+.logo-container {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+}
+
+.nav-list-container {
+    position: fixed;
+}    
 
 .logo {
     width: 200px;
-    padding-left: 10px;
-    padding-top: 10px;
-    
 }
+
 
 
 .navbar {
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 20px;
     font-weight: bolder;
-    text-align: center;
+    height: 11em;
 }
 
 .nav-list {
@@ -45,29 +55,38 @@
     margin-bottom: 4px;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 1040px) {
     .navbar {
         flex-direction: column;
     }
 
-    .navbar .container-icon {
-        width: 100%;
+    .nav-list-container {
+        width: 25%;
     }
-
-    .menu {
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 65px;
-    }
-
+    
+    
     .nav-list {
         list-style-type: none;
         width: 100%;
         text-align: center;
-        padding-top: 10px;
         display: none;
+        border: 1px solid red;
     }
+
+
+    .nav-list .list-item {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        right: 20;
+        top: 90;
+        cursor: pointer;
+    }
+
 
     .nav-list .list-item {
         display: block;
