@@ -5,15 +5,9 @@
     width: 200px;
 }
 
-.nav-list-container {
-    position: fixed;
-}    
-
 .logo {
     width: 200px;
 }
-
-
 
 .navbar {
     display: flex;

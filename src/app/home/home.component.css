@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left,
+.right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.intro-text {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.combined-photo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
