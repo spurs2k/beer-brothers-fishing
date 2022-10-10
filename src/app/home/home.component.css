@@ -35,24 +35,25 @@ h1 {
 }
 
 .combined-photo {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media all and (max-width: 1040px) {
+@media all and (max-width: 811px) {
 
     .left,
     .right {
         width: 0%;
-        border: 1px solid red;
     }
 
     .middle {
         width: 100%;
-        border: 1px solid red;
     }
 
+    .column {
+        padding: 0;
+    }
 
 }
