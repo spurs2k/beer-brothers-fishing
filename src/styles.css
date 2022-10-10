@@ -49,10 +49,6 @@ h1 {
     color: var(--green);
 }
 
-.fa-icons {
-    size: 6x;
-}
-
 .fa-pulse-hover {
     color: var(--green);
     margin: 10 2em;
