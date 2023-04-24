@@ -4,10 +4,15 @@ body,
 app-root {
     height: 100%;
     --green: #555E30;
+    --brown: #B3613B;
 }
 
 .greenColor {
     color: var(--green);
+}
+
+.brownColor {
+    color: var(--brown);
 }
 
 /* Content wrapper stylings. The outer container is used to make sure the application fills the entire browser and pushes footer to the bottom of the page. The inner container is there in case content goes beyond the view port, the content will not overflow into the footer. */
@@ -17,7 +22,7 @@ app-root {
     margin-top: 0;
     min-height: 100%;
     background-color: black;
-    /* change this color after editing website. changed to black for less eye strain */
+    /* Possibly change this color after editing website. changed to black for less eye strain */
 }
 
 .content-inner-container {
@@ -51,8 +56,9 @@ h1 {
 
 .fa-pulse-hover {
     color: var(--green);
-    margin: 10 2em;
+    margin: 10px;
     display: inline-block;
+    
 }
 
 @keyframes pulse {

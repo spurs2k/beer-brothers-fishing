@@ -1,6 +1,7 @@
 .logo-container {
     position: absolute;
-    left: 10px;
+    left: 20px;
+    top: 10px;
 }
 
 .logo {
@@ -12,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
     height: 176px;
 }
@@ -33,7 +34,8 @@
 }
 
 .navbar a:hover {
-    color: rgb(23, 199, 85);
+    color: white;
+    text-shadow: 5px 5px var(--green);
 }
 
 .menu {
