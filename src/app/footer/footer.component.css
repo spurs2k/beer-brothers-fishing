@@ -1,2 +1,45 @@
+.footer-container {
+    position: sticky;
+    top: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    border: 2px solid var(--green);
+    background-color: black;
+}
 
+.footer-links {
+    color: var(--green);
+}
+
+.footer-links:hover {
+    color: var(--green);
+}
+
+.fa-pulse-hover {
+    color: var(--green);
+    margin: 10px;
+    display: inline-block;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fa-pulse-hover:hover {
+    animation: pulse 1s ease-in-out infinite;
+    color: var(--green);
+}
 

@@ -29,6 +29,12 @@ app-root {
     padding: 50px;
 }
 
+/* global styling for the paragraph headings on each page*/
+h1 {
+    color: var(--green);
+    text-align: center;
+}
+
 .footer-container {
     position: sticky;
     top: 100%;
@@ -40,11 +46,6 @@ app-root {
     background-color: black;
 }
 
-/* global styling for the paragraph headings on each page*/
-h1 {
-    color: var(--green);
-    text-align: center;
-}
 
 .footer-links {
     color: var(--green);
